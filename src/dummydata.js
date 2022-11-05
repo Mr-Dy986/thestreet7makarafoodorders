@@ -1,0 +1,86 @@
+const shopItems = [
+  {
+    id: 1,
+    name: "កូកាកូឡា",
+    price: 2500,
+    img: "./images/beverages/cocacola.png",
+  },
+  {
+    id: 2,
+    name: "គោជល់",
+    price: 3000,
+    img: "./images/beverages/redbull.png",
+  },
+  {
+    id: 3,
+    name: "Samurai",
+    price: 2500,
+    img: "./images/beverages/Samurai.png",
+  },
+  {
+    id: 4,
+    name: "Sprite",
+    price: 2500,
+    img: "./images/beverages/sprite.png",
+  },
+  {
+    id: 5,
+    name: "ទឹកសុទ្ធ",
+    price: 1500,
+    img: "./images/beverages/vital.png",
+  },
+  {
+    id: 6,
+    name: "ABC កំប៉ុង",
+    price: 6000,
+    img: "./images/Beers/abc.png",
+  },
+  {
+    id: 7,
+    name: "Anchor ដប",
+    price: 4000,
+    img: "./images/Beers/anchorbt.png",
+  },
+  {
+    id: 8,
+    name: "Anchor កំប៉ុង",
+    price: 3000,
+    img: "./images/Beers/anchorcan.png",
+  },
+  {
+    id: 9,
+    name: "Hanuman ដប",
+    price: 4500,
+    img: "./images/Beers/hanumanbt.png",
+  },
+  {
+    id: 10,
+    name: "Heineken ដប",
+    price: 5500,
+    img: "./images/Beers/heinekenbt.png",
+  },
+  {
+    id: 11,
+    name: "Singha ដប",
+    price: 4500,
+    img: "./images/Beers/singhabt.png",
+  },
+  {
+    id: 12,
+    name: "Tiger ដប",
+    price: 4500,
+    img: "./images/Beers/tigerbt.png",
+  },
+  {
+    id: 13,
+    name: "Tiger កំប៉ុង",
+    price: 4000,
+    img: "./images/Beers/tigercan.png",
+  },
+  {
+    id: 14,
+    name: "Tiger Crystal ដប",
+    price: 4500,
+    img: "./images/Beers/tigercrystal.png",
+  },
+];
