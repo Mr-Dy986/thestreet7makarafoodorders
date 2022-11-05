@@ -265,7 +265,7 @@ body {
 
 .cancel {
   background-color: red;
-  padding: 0.3em 0.8em;
+  padding: 0.5em 0.8em;
   border: none;
   border-radius: 0.4em;
   color: #fff;
@@ -288,7 +288,7 @@ body {
 .heatBill {
   width: 300px;
   padding: 0.5em 0;
-  font-family: monospace;
+  font-family: Khmer Os Siemreap;
   color: rgb(44, 44, 44);
   -webkit-box-shadow: 2px 4px 9px -4px #000000;
   box-shadow: 2px 4px 9px -4px #000000;
@@ -354,7 +354,7 @@ tr > td:last-child {
 }
 
 .orderAgain {
-  background-color: #004d44;
+  background-color: #414343;
   margin-top: 2rem;
   border: none;
   border-radius: 0.4em;
