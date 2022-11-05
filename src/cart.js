@@ -130,8 +130,8 @@ const totalPrice = () => {
 
   bill.innerHTML = `
   <h1 id="totalPrice">Total Price: <span>${totalPrice} ៛</span></h1>
-  <div>
-    <a href="order.html" class="order">កម្មង់</a>
+  <div class="button">
+    <a href="order.html" class="order">ផ្ទៀងផ្ទាត់</a>
     <a href="index.html" class="addMore">កម្មង់បន្ថែម</a>
     <button onclick="cancelOrder()" class="cancel">ចាកចេញ</button>
   </div>
