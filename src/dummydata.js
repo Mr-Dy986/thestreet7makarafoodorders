@@ -1,15 +1,15 @@
 const shopItems = [
   {
     id: 1,
-    name: "កូកាកូឡា",
-    price: 2500,
-    img: "./images/beverages/cocacola.png",
+    name: "ទឹកសុទ្ធ",
+    price: 1500,
+    img: "./images/beverages/vital.png",
   },
   {
     id: 2,
-    name: "គោជល់",
-    price: 3000,
-    img: "./images/beverages/redbull.png",
+    name: "កូកាកូឡា",
+    price: 2500,
+    img: "./images/beverages/cocacola.png",
   },
   {
     id: 3,
@@ -25,9 +25,9 @@ const shopItems = [
   },
   {
     id: 5,
-    name: "ទឹកសុទ្ធ",
-    price: 1500,
-    img: "./images/beverages/vital.png",
+    name: "គោជល់",
+    price: 3000,
+    img: "./images/beverages/redbull.png",
   },
   {
     id: 6,
@@ -79,7 +79,7 @@ const shopItems = [
   },
   {
     id: 14,
-    name: "Tiger Crystal ដប",
+    name: "TigerCrystal ដប",
     price: 4500,
     img: "./images/Beers/tigercrystal.png",
   },
