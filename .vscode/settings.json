@@ -8,5 +8,9 @@
         "សូមអរគុណ"
     ],
     "vscode-edge-devtools.showWorkers": true,
-    "vscode-edge-devtools.useHttps": true
+    "vscode-edge-devtools.useHttps": true,
+    "vscode-edge-devtools.browserFlavor": "Default",
+    "vscode-edge-devtools.defaultEntrypoint": "",
+    "vscode-edge-devtools.defaultUrl": "127.0.0.1",
+    "vscode-edge-devtools.webRoot": "${workspaceFolder} ${Web Root}"
 }
