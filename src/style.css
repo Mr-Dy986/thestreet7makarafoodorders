@@ -249,7 +249,7 @@ body {
 
 .order {
   background-color: #2a9d8f;
-  padding: 0.4em 0.8em;
+  padding: 0 0.8rem;
   text-align: center;
   border: none;
   border-radius: 0.4em;
@@ -262,7 +262,7 @@ body {
 
 .addMore {
   background-color: #ffb703;
-  padding: 0.4em 0.8em;
+  padding: 0 0.8rem;
   text-align: center;
   border: none;
   border-radius: 0.4em;
@@ -275,7 +275,7 @@ body {
 
 .cancel {
   background-color: red;
-  padding: 0 0.8em;
+  padding: 0 0.8rem;
   text-align: center;
   border: none;
   border-radius: 0.4em;
