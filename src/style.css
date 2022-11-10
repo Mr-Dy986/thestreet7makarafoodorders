@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   width: auto;
-  height:auto;
+  height: auto;
 }
 
 a {
@@ -73,7 +73,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   justify-content: center;
   align-items: center;
-  column-gap: 0.9rem;
+  column-gap: normal;
   row-gap: 1.2rem;
   max-width: 700px;
 }
@@ -83,6 +83,8 @@ body {
   margin-bottom: 0.5rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
   padding: 5px;
   border-radius: 10px;
   transition-duration: 200ms;
@@ -102,7 +104,7 @@ body {
 .item__content > h3 {
   font-size: 0.8em;
   text-align: center;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.5em;
 }
 
 .item__content--controls {
@@ -114,15 +116,15 @@ body {
 
 .btn {
   background-color: #2a9d8f;
-  padding: 0.3rem 1rem;
-  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.2rem;
   text-align: center;
   border: 0;
-  outline-color: #000000;
+  outline-color: black;
   border-radius: 10px;
   width: 120px;
-  display:flexbox;
-  box-shadow: 1px -3px 52px -5px rgba(0, 0, 0, 0.77);
+  display: flexbox;
+  box-shadow: 1px -3px 52px -5px #000000;
   cursor: pointer;
 }
 
@@ -205,20 +207,20 @@ body {
 .cartItem__content > h1 {
   font-size: 0.8em;
   text-align: center;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.5em;
 }
 
 .cartItem__content--controls {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.5em;
 }
 
 .cartItem__content--total {
   text-align: center;
   font-size: 0.9em;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.5em;
 }
 
 .cartItem__content--total > span {
@@ -244,12 +246,12 @@ body {
 }
 
 #totalPrice > span {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .order {
   background-color: #2a9d8f;
-  padding: 0 0.8rem;
+  padding: 5px;
   text-align: center;
   border: none;
   border-radius: 0.4em;
@@ -261,8 +263,8 @@ body {
 }
 
 .addMore {
-  background-color: #ffb703;
-  padding: 0 0.8rem;
+  background-color: rgb(255, 204, 0);
+  padding: 5px;
   text-align: center;
   border: none;
   border-radius: 0.4em;
@@ -275,7 +277,7 @@ body {
 
 .cancel {
   background-color: red;
-  padding: 0 0.8rem;
+  padding: 5px;
   text-align: center;
   border: none;
   border-radius: 0.4em;
