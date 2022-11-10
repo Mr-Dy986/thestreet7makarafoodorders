@@ -1,5 +1,8 @@
 {
     "recommendations": [
-        "ms-edgedevtools.vscode-edge-devtools"
+        "ms-edgedevtools.vscode-edge-devtools",
+        "ms-vscode.remote-repositories",
+        "codemooseus.vscode-devtools-for-chrome",
+        "fabiospampinato.vscode-open-in-github"
     ]
 }
