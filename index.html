@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" style="--tg-viewport-height:100vh; --tg-viewport-stable-height:100vh;">
-
+<html
+  lang="en"
+  style="--tg-viewport-height: 100vh; --tg-viewport-stable-height: 100vh"
+>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <meta name="facebook-domain-verification" content="owls43axmvy6sqlniku1lhzjuc63r2" />
+    <meta
+      name="facebook-domain-verification"
+      content="owls43axmvy6sqlniku1lhzjuc63r2"
+    />
     <title>ផ្លូវ-The Street</title>
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <link rel="stylesheet" href="./src/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
@@ -36,9 +45,36 @@
       </section>
     </section>
   </body>
-  
-  <script src="https://kit.fontawesome.com/602cd2a7a9.js" crossorigin="anonymous"></script>
+
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: "{433624208955731}",
+        cookie: true,
+        xfbml: true,
+        version: "{v15.0}",
+      });
+
+      FB.AppEvents.logPageView();
+    };
+
+    (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {
+        return;
+      }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    })(document, "script", "facebook-jssdk");
+  </script>
+
+  <script
+    src="https://kit.fontawesome.com/602cd2a7a9.js"
+    crossorigin="anonymous"
+  ></script>
   <script src="./src/dummyData.js"></script>
   <script src="./src/main.js"></script>
-
 </html>
