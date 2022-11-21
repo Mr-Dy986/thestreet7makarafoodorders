@@ -64,10 +64,6 @@ const generateHeatBill = () => {
 generateHeatBill();
 
 const orderAgain = () => {
-  FB.ui({
-    method: 'send',
-    link: 'http://www.nytimes.com/interactive/2015/04/15/travel/europe-favorite-streets.html',
-  });
   localStorage.setItem("data", JSON.stringify([]));
   return window.location.replace("index.html");
 };
