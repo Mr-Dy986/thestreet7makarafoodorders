@@ -6,7 +6,7 @@
     "configurations": [
     html
         {
-            "type": "chrome",
+            "type": "edge",
             "request": "launch",
             "name": "Open index.html",
             "file": "c:\\inetpub\\wwwroot\\thestreet7makarafoodorders\\index.html"
