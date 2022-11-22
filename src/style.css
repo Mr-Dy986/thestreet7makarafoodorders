@@ -377,3 +377,9 @@ tr > td:last-child {
   font-size: 1.5em;
   cursor: pointer;
 }
+
+@media (300px <= width <= 600px) {
+  body {
+    background: fixed;
+  }
+}
